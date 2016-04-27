@@ -7,7 +7,7 @@ eventUtility.addEvent(document, "keypress",
         var code = evt.keyCode,
             ctrlKey = evt.ctrlKey;
             
-        if (ctrlKey && code === 67) {
+        if (ctrlKey && code === 68) {
             alert("You pressed ctrl+B");
         }
         
